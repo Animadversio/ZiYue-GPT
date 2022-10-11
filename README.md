@@ -14,7 +14,9 @@ It's divided into these procedures
 
 ## Sample Text
 
-### 8 Layer GPT after 120 epochs
+### 8 Layer GPT 
+After 120 epochs, with four linear learning rate decay cycles of 10, 10, 50, 50 epochs each. 
+
 
 ```python
 In [140]: generator("子曰", max_length=60, num_return_sequences=5, num_beams=10,  repetition_penalty=1.5)
@@ -79,3 +81,5 @@ Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
 Out[139]:
 [{'generated_text': '鲲鹏 之 来 兮 ， 吾 知 之 矣 ！ 其 无 知 ！ 也 而 不 知 ！ 其 犹 戒 矣 。 之 学 者 ， 吾 未 知 也  。 此 言 之 谓 也 。 也 。 离 已 。'},
 ```
+
+
