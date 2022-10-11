@@ -6,7 +6,11 @@ It's divided into these procedures
   * and perhaps ther English and modern Chinese translation
 * Clean up text to make a dataset 
 * Train GPT2 based on these text dataset. 
+* Enjoy the generated text! 
 
+## Notebooks
+* [Data Collection](https://colab.research.google.com/drive/1Wehm6Fd812-LWMNKrIJCMCeQjcyu7__Y?usp=sharing)
+* [Formatting and GPT training](https://colab.research.google.com/drive/1vIgEBvXFMqehq4yHl1tEYksVBjsU9V2K?usp=sharing)
 
 ## Sample Text
 
