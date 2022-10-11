@@ -1,4 +1,4 @@
-# ZiYue-GPT
+# ZiYue-GPT (子曰 生成器)
 This is a hobbyist project to train a generative Language model (GPT2) to output ancient chinese text, simulating the style of talkings and writing for ancient Chinese philosophers. 
 
 It's divided into these procedures
