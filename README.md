@@ -12,6 +12,11 @@ It's divided into these procedures
 * [Data Collection](https://colab.research.google.com/drive/1Wehm6Fd812-LWMNKrIJCMCeQjcyu7__Y?usp=sharing)
 * [Formatting and GPT training](https://colab.research.google.com/drive/1vIgEBvXFMqehq4yHl1tEYksVBjsU9V2K?usp=sharing)
 
+## Playable Demo 
+Gradio Demo in [huggingface space](https://huggingface.co/spaces/binxu/Ziyue-GPT)! 
+
+Pretrained model in huggingface hub [ziyue-gpt](https://huggingface.co/binxu/Ziyue-GPT2)!
+
 ## Sample Text
 
 ### 8 Layer GPT 
