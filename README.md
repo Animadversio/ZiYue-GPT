@@ -16,7 +16,31 @@ It's divided into these procedures
 
 ### 8 Layer GPT 
 After 120 epochs, with four linear learning rate decay cycles of 10, 10, 50, 50 epochs each. 
+<details>
+  <summary> "Reading list" of this model </summary>
+  
+### Book list
+    * 孟子 "mengzi"
+    * 论语 "analects"
+    * 商君书 "shang-jun-shu"
+    * 礼记 "liji"
+    * 孙子兵法 "art-of-war"
+    * 墨子 "mozi"
+    * 庄子 "zhuangzi"
+    * 道德经 "dao-de-jing"
+    * 韩非子 "hanfeizi"
+    * 史记 "shiji"
+    * 战国策 "zhan-guo-ce"
+    * 汉书 "han-shu"
+    * 后汉书 "hou-han-shu"
+    * 三国志 "sanguozhi"
+    * 世说新语 "shi-shuo-xin-yu"
+    * 颜氏家训 "yan-shi-jia-xun"
+    * 金瓶梅 "jinpingmei"
+    * 西游记 "xiyouji"
+    * 红楼梦 "hongloumeng"
 
+</details>
 
 ```python
 In [140]: generator("子曰", max_length=60, num_return_sequences=5, num_beams=10,  repetition_penalty=1.5)

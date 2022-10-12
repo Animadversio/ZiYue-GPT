@@ -89,3 +89,17 @@ chap_urls, _ = find_chap_urls(bookname, book_url=None)
 download_book_htmls(bookname, chap_urls)
 textdict = parse_saved_htmls(bookname, chap_urls)
 
+bookname = "hongloumeng"
+chap_urls, _ = find_chap_urls(bookname, book_url=None)
+download_book_htmls(bookname, chap_urls)
+textdict = parse_saved_htmls(bookname, chap_urls)
+
+bookname = "xiyouji"
+chap_urls, _ = find_chap_urls(bookname, book_url=None)
+download_book_htmls(bookname, chap_urls)
+textdict = parse_saved_htmls(bookname, chap_urls)
+
+bookname = "jinpingmei"
+chap_urls, _ = find_chap_urls(bookname, book_url=None)
+download_book_htmls(bookname, chap_urls)
+textdict = parse_saved_htmls(bookname, chap_urls)
