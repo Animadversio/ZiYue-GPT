@@ -48,7 +48,7 @@ trainer = Trainer(
     # prediction_loss_only=True,
 )
 
-trainer.train()
+trainer.train(resume_from_checkpoint="/home/binxuwang/Datasets/AncChn_L12_output/checkpoint-60000")
 model.save_pretrained("/home/binxuwang/Ziyue-GPT2-deep")
 tokenizer_bert.save_pretrained("/home/binxuwang/Ziyue-GPT2-deep")
 
